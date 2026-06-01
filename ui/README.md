@@ -1,70 +1,133 @@
-# Getting Started with Create React App
+# AI Tax Assistant
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+An AI-powered Tax & Legal Assistant built using React, FastAPI, Ollama, and RAG (Retrieval-Augmented Generation).
 
-## Available Scripts
+## Features
 
-In the project directory, you can run:
+* AI chatbot for tax and legal questions
+* OCR support for image-based queries
+* RAG-based accurate responses
+* Offline local LLM support using Ollama
+* React frontend + FastAPI backend
+* Voice input support
+* Image analysis support
 
-### `npm start`
+---
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+## Tech Stack
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+### Frontend
 
-### `npm test`
+* React.js
+* CSS
+* Axios
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+### Backend
 
-### `npm run build`
+* FastAPI
+* Python
+* Ollama
+* LangChain
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+### AI Models
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+* llama3.2
+* llava
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+---
 
-### `npm run eject`
+## Project Structure
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+```bash
+frontend/
+backend/
+knowledge_base/
+uploads/
+```
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+---
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+## Installation
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+### Clone Repository
 
-## Learn More
+```bash
+git clone https://github.com/Isha311219/RAG_Agentic_aI.git
+cd RAG_Agentic_aI
+```
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+---
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+## Backend Setup
 
-### Code Splitting
+```bash
+cd backend
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+python -m venv venv
 
-### Analyzing the Bundle Size
+venv\Scripts\activate
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+pip install -r requirements.txt
 
-### Making a Progressive Web App
+uvicorn app.main:app --reload
+```
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+Backend runs on:
 
-### Advanced Configuration
+```bash
+http://127.0.0.1:8000
+```
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+---
 
-### Deployment
+## Frontend Setup
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+```bash
+cd frontend
 
-### `npm run build` fails to minify
+npm install
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+npm start
+```
+
+Frontend runs on:
+
+```bash
+http://localhost:3000
+```
+
+---
+
+## Features in Detail
+
+### Tax Question Answering
+
+Ask questions related to:
+
+* GST
+* Income Tax
+* Deductions
+* Tax Regimes
+* Legal Rights
+
+### OCR + Image Analysis
+
+Upload screenshots or documents and extract questions automatically.
+
+### RAG Accuracy
+
+Uses a curated knowledge base to reduce hallucinations and improve response accuracy.
+
+---
+
+## Future Improvements
+
+* PDF analysis
+* Multilingual support
+* Better legal reasoning
+* Cloud deployment
+* Authentication system
+
+---
+
+
