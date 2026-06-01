@@ -1,0 +1,37 @@
+GST Notice:
+GST notice is sent by tax department.
+
+A user should:
+1. Check notice type
+2. Check due date
+3. Review penalty details
+4. Respond before deadline
+5. Keep GST documents ready
+
+
+GST Reply Process:
+To reply to GST department:
+
+1. Login to GST portal
+2. Open notices section
+3. Select notice
+4. Upload explanation
+5. Submit reply before due date
+
+
+GST Late Filing:
+Late filing may result in:
+- penalty
+- interest
+- legal notice
+
+
+Wallet Recharge:
+Wallet recharge can be done from wallet section.
+
+
+Call Disconnected Issue:
+Call disconnected issue can be solved by:
+- checking internet connection
+- restarting application
+- reconnecting network

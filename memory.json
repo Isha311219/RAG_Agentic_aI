@@ -1,0 +1,13 @@
+{
+    "summary": "",
+    "recent_chats": [
+        {
+            "role": "user",
+            "content": "tell all the answers which are asked in image with summary"
+        },
+        {
+            "role": "assistant",
+            "content": "Based on the image OCR text, the following questions were asked:\n\n*   **Q13:** My insurance claim was rejected by the hospital\n*   **Q14:** How can I appeal against insurance rejection?\n*   **Q15:** What medical documents should prepare?\n\n**Summary:**\nThe image contains three questions related to insurance claims and medical documentation. However, the provided context does not contain the answers to these specific questions."
+        }
+    ]
+}

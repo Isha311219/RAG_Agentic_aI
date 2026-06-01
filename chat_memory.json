@@ -1,0 +1,29 @@
+{
+    "summary": "",
+    "recent_chats": [
+        {
+            "role": "user",
+            "content": "tell answer in detail which is asked in image"
+        },
+        {
+            "role": "assistant",
+            "content": "No readable text provided."
+        },
+        {
+            "role": "user",
+            "content": "Which ITR form should freelancers use?"
+        },
+        {
+            "role": "assistant",
+            "content": "**ITR Forms for Freelancers**\n\nBased on the provided input, here is the answer to the question:\n\nFreelancers should use **ITR-4** (Simplified Profits and Losses of Business or Profession) form.\n\nHere are the key points to consider:\n\n*   **Eligibility**: The ITR-4 form is designed for individuals who"
+        },
+        {
+            "role": "user",
+            "content": "now explain the answers which is in image"
+        },
+        {
+            "role": "assistant",
+            "content": "I'll answer the questions based on the provided text.\n\n\n**GST Late Filing:**\n\nThe text does not provide a clear explanation of how to resolve GST late filing issues. However, it mentions some steps that may help:\n\n*   Reconnecting network\n*   Restarting application\n*   Logging into GST portal\n*   Ch"
+        }
+    ]
+}
