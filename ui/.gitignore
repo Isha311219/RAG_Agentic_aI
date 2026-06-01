@@ -21,3 +21,20 @@
 npm-debug.log*
 yarn-debug.log*
 yarn-error.log*
+# Python
+venv/
+__pycache__/
+*.pyc
+
+# Backend temp files
+temp_ocr.png
+temp_image.jpg
+
+# Uploads
+uploads/
+
+# Memory
+memory/
+memory_store/
+chat_memory.json
+memory.json
